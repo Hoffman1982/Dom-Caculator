@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-Caculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="caculator">
+        <div class="display">
+        <input id="display" type="text" class="display-input" disabled>
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="toDisplay('7')">7</button>
+            <button class="btn"onclick="toDisplay('8')" >8</button>
+            <button class="btn" onclick="toDisplay('9')">9</button>
+            <button class="btn operator" onclick="toDisplay('/')">÷</button>
+            <button class="btn" onclick="toDisplay('6')">6</button>
+            <button class="btn" onclick="toDisplay('5')">5</button>
+            <button class="btn" onclick="toDisplay('4')">4</button>
+            <button class="btn operator" onclick="toDisplay('*')">×</button>
+            <button class="btn" onclick="toDisplay('1')">1</button>
+            <button class="btn" onclick="toDisplay('2')">2</button>
+            <button class="btn" onclick="toDisplay('3')">3</button>
+            <button class="btn operator" onclick="toDisplay('-')">-</button>
+            <button class="btn" onclick="toDisplay('0')">0</button>
+            <button class="btn operator" onclick="toDisplay('.')">.</button>
+            <button class="btn operator" onclick="toDisplay('+')">+</button>
+            <button class="btn operator" onclick="clearDisplay()">C</button>
+            <button class="btn operator" onclick="caculate()">=</button>
+            <button class="btn operator" onclick="backSpace()">←</button>
+        </div>
+
+     
+
+
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
